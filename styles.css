@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+
+}
+
+/* The animation code */
+@keyframes example {
+  from {background-color: lightgoldenrodyellow;}
+  to {background-color: #90e0ef;}
+}
+
+@keyframes example2 {
+  from {border-bottom: 0px solid lightblue;}
+  to {border-bottom: 10px solid #0077b6;}
+}
+
+.card {
+    margin: 0px auto;
+    width: 400px;
+    border-bottom: 10px solid #0077b6;
+    background-color: #90e0ef;
+    color: #2b2839;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightgrey;
+    animation-name: example, example2;
+    animation-duration: 5s;
+
+}
